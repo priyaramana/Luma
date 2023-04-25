@@ -6,6 +6,6 @@ workflows:
     jobs:
       - cypress/install
       - cypress/run
-          cypress-command: npx cypress run --browser edge
+          cypress-command: npx cypress run --browser firefox
           install-browsers: true
           start-command: npm run start:dev
