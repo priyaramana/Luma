@@ -7,4 +7,5 @@ workflows:
       - cypress/install
       - cypress/run
           cypress-command: npx cypress run --browser edge
+          install-browsers: true
           start-command: npm run start:dev
